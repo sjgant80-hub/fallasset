@@ -4,7 +4,7 @@
 
 A single-file replacement for Adobe Bridge (asset browser) and Lightroom (rate, tag, label, lightly edit). Your folder of images, your metadata, your edits — all on your device. No upload, no account, no telemetry.
 
-- **Prime** · 467
+- **Prime** · 1451
 - **Version** · 1.0.0
 - **Phase** · FallStudio · phase 3
 - **Seal** · ◊·κ=1 · MIT
@@ -77,7 +77,7 @@ The T3 path is purely an enhancement — no feature requires it. With keys set, 
 
 All present:
 - `Cascade` (T0/T2/T3) — `class Cascade` definition with `_probe`, `detectTier`, `generate`
-- `KONOMI` sovereign shim — `window.KONOMI = {active:true, tier:'sovereign', prime:467, ...}`
+- `KONOMI` sovereign shim — `window.KONOMI = {active:true, tier:'sovereign', prime:1451, ...}`
 - `fallmesh` BroadcastChannel — `new BroadcastChannel('fall-signal')`, `hello` on boot, `pong` on ping
 - `postMessage` API — `window.addEventListener('message', ...)`, responds to `{target:'fallasset', action:'ping'}`
 - PWA manifest via `data:application/manifest+json` URL with `◊` brass-amber icon
@@ -113,7 +113,7 @@ state = {
 | 8 | L6 SKIN — mobile-first, estate dark palette | yes |
 | 9 | L7 ASS — empty state is helpful | yes |
 | 10 | Konomi licence shim baked | yes |
-| 11 | fallmesh BroadcastChannel `fall-signal`, prime 467 | yes |
+| 11 | fallmesh BroadcastChannel `fall-signal`, prime 1451 | yes |
 | 12 | PWA manifest baked via data: URL | yes |
 | 13 | README + MIT LICENSE | yes |
 | 14 | .nojekyll | yes |
