@@ -9,7 +9,7 @@ A single-file replacement for Adobe Bridge (asset browser) and Lightroom (rate, 
 - **Prime** · 1451
 - **Version** · 1.0.0
 - **Phase** · FallStudio · phase 3
-- **Seal** · ◊·κ=1 · MIT
+- **Seal** · MIT
 
 ---
 
@@ -136,4 +136,4 @@ The whole tool is in `index.html`. CSS at the top of `<style>`, JS at the bottom
 
 ---
 
-**FallAsset** · part of the FallStudio plan · ◊·κ=1 · MIT
+**FallAsset** · part of the FallStudio plan · MIT
