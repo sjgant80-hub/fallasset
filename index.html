@@ -1481,7 +1481,7 @@ async function runIntent(q){
   if(/^caption|describe/i.test(q)&&state.sel.size>0){
     for(const id of state.sel){
       const f=state.files.find(x=>x.id===id);if(!f)continue;
-      const base=f.name.replace(/\.[^.]+$/,'').replace(/[_-]+/g,' ').replace(/([a-z])([A-Z])/g,'TBA TBA');
+      const base=f.name.replace(/\.[^.]+$/,'').replace(/[_-]+/g,' ').replace(/([a-z])([A-Z])/g,'$1 $2');
       updMeta(id,'caption',base.charAt(0).toUpperCase()+base.slice(1));
     }
     renderMeta();
